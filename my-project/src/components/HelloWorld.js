@@ -5,8 +5,8 @@ return(
  <div className="div-pai">
     <p>Primeiro component</p>
     <div>
-     <Frase/>1
-      <img src={url} alt="imagem"/>
+     <Frase/>
+      
     </div>
  </div>
 )
