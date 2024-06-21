@@ -17,11 +17,9 @@ function App() {
         <Nome name=" Gabriel camilo" />
         <Nome name="Yago" />
         <Pessoa nome="Felipe" profissão="Programador"  idade="18" sexo="Masculino" />
-        <List 
-        time="Real madrid"
-        jogador="Rodrygo"
-        numero="11"
-        />
+        <List time="Real madrid" jogador="Rodrygo" numero={11} />
+        <List time="Inter Miami" jogador="Messi" numero={10} />
+        <List time="Barcelona" jogador="Levandowisk" numero={9} />
       </div>
     </div>
   );
