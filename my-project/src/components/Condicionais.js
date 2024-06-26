@@ -9,6 +9,7 @@ function Condicionais(){
     }
     function limparEmail(){
       setUser("")
+      alert(`E-mail: ${Email} retirado, cadastre outro se quiser!`)
     }
     const [Email, setEmail] = useState()
     const [userEmail, setUser] = useState()
@@ -21,7 +22,7 @@ function Condicionais(){
                 {userEmail &&(
                     <div>
                     <p>E-mail: {userEmail}</p>
-                    <button onClick={limparEmail}>Limpar emali</button>
+                    <button  className={styles.submit} onClick={limparEmail}>Limpar E-mail</button>
                     </div>
                 )}
             </form>
