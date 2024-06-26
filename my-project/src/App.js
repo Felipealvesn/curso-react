@@ -5,14 +5,14 @@ import Pessoa from './components/Pessoa';
 import List from './components/List';
 import Eventos from './components/Evento';
 import Form from './components/Form'
+import Condicionais from './components/Condicionais';
 
 function App() {
-  let nome = "felipe alves"
-  const img = 'logo192.png' 
+  
   return (
     <div className="App">
       <h1>condicionais em React</h1>
-
+        <Condicionais/>
       </div>
  
   );
